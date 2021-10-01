@@ -4,7 +4,7 @@
 
 > Simple Ruby program built purely with ruby to generate output in text format from a given hash.
 > 
->   In case the Dataset is given in a jason format we only we will do the following
+>   In case the Dataset is given in a JSON format we only we will do the following to convert into a hash.
 ```
 require 'json'
 value = '{"val":"test","val1":"test1","val2":"test2"}'
