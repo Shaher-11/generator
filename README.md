@@ -3,7 +3,13 @@
 # Generator
 
 > Simple Ruby program built purely with ruby to generate output in text format from a given hash.
-
+> 
+>   In case the Dataset is given in a jason format we only we will do the following
+```
+require 'json'
+value = '{"val":"test","val1":"test1","val2":"test2"}'
+puts JSON.parse(value) # => {"val"=>"test","val1"=>"test1","val2"=>"test2"}
+```
 
 ## Built With
 
